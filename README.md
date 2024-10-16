@@ -33,6 +33,7 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 * The test accuracy is ***97.81%*** (***This result uses dropout probability of 20%***)
 * A  `FNet_model.pth` file has been included. With this one can directly load the model state_dict and use for testing.
 
+
 ***Model - 2 : CNN***
 * The `Convolutional Neural Netowork` has 2 convolution layers and pooling layers with 3 fully connected layers. The first convolution layer takes in a channel of dimension 1 since the images are grayscaled. The kernel size is chosen to be of size 3x3 with stride of 1. The output of this convolution is set to 16 channels which means it will extract 16 feature maps using 16 kernels. We pad the image with a padding size of 1 so that the input and output dimensions are same. The output dimension at this layer will be 16 x 28 x 28. The we apply RelU activation to it followed by a max-pooling layer with kernel size of 2 and stride 2. This down-samples the feature maps to dimension of 16 x 14 x 14.
 * The second convolution layer will have an input channel size of 16. We choose an output channel size to be 32 which means it will extract 32 feature maps. The kernel size for this layer is 3 with stride 1. We again use a padding size of 1 so that the input and output dimension remain the same. The output dimension at this layer will be 32 x 14 x 14. We then follow up it with a RelU activation and a max-pooling layer with kernel of size 2 and stride 2. This down-samples the feature maps to dimension of 32 x 7 x 7.
@@ -40,6 +41,19 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 * The test accuracy is ***99.11%*** (***This result uses dropout probability of 20%***)
 * A `convNet_model.pth` file has been included. With this one can directly load the model state_dict and use for testing.
 
+
+***Results**
+* Loss functions
 <p align='center'>
-  <img src='https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png'>
+  <img src='[https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png](https://github.com/codevisioner/ECE407_MNIST-Handwritten-Digits-Recognition/blob/main/Loss_curves.png)'>
+</p>
+
+* Accuracy
+<p align='center'>
+  <img src='[https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png](https://github.com/codevisioner/ECE407_MNIST-Handwritten-Digits-Recognition/blob/main/Accuracy.png)'>
+</p>
+
+* Visualization results
+<p align='center'>
+  <img src='[https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png](https://github.com/codevisioner/ECE407_MNIST-Handwritten-Digits-Recognition/blob/main/visualization_results.png)'>
 </p>
