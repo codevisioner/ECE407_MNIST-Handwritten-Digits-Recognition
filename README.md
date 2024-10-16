@@ -50,10 +50,10 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 
 * Accuracy
 <p align='center'>
-  <img src='https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png'>
+  <img src='https://github.com/codevisioner/ECE407_MNIST-Handwritten-Digits-Recognition/blob/main/Accuracy.png'>
 </p>
 
 * Visualization results
 <p align='center'>
-  <img src='https://github.com/NvsYashwanth/MNIST-Handwritten-Digits-Recognition/blob/master/images/MNIST%20digits%20loss%20curve.png'>
+  <img src='https://github.com/codevisioner/ECE407_MNIST-Handwritten-Digits-Recognition/blob/main/visualization_results.png'>
 </p>
